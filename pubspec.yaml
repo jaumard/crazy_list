@@ -1,0 +1,18 @@
+name: crazy_list
+description: Crazy list is a widget that change his layout depending of the item count on the list, can be square, triangle, diagonal, grid, list
+version: 1.0.0
+author: jaumard <jimmy.aumard@gmail.com>
+homepage: https://github.com/jaumard/crazy_list.git
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
