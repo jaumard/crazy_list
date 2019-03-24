@@ -32,10 +32,12 @@ class GridWidget extends StatelessWidget {
           color: color,
           child: InkWell(
             onTap: onTap == null ? null : () => onTap(index),
-            child: builder(
-              context,
-              index,
-              CrazyListLayout.grid,
+            child: Center(
+              child: builder(
+                context,
+                index,
+                CrazyListLayout.grid,
+              ),
             ),
           ),
         );

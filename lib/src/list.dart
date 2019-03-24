@@ -15,7 +15,7 @@ class ListWidget extends StatelessWidget {
         itemBuilder: (context, index) =>
             Card(
               color: index % 2 == 0 ? color1 : color2,
-              child: InkWell(onTap: onTap == null ? null : () => onTap(index), child: builder(context, index, CrazyListLayout.list)),
+              child: InkWell(onTap: onTap == null ? null : () => onTap(index), child: Center(child: builder(context, index, CrazyListLayout.list))),
             ),
         itemCount: itemCount);
   }
