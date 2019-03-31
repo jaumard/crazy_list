@@ -1,6 +1,7 @@
 library infinite_widgets;
 
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
 
 part 'src/diagonal.dart';
 part 'src/grid.dart';

@@ -1,6 +1,6 @@
 name: crazy_list
 description: Crazy list is a widget that change his layout depending of the item count on the list, can be square, triangle, diagonal, grid, list
-version: 1.0.1
+version: 1.0.2
 author: jaumard <jimmy.aumard@gmail.com>
 homepage: https://github.com/jaumard/crazy_list.git
 

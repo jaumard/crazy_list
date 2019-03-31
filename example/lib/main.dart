@@ -29,7 +29,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  var itemCount = 2;
+  var itemCount = 7;
 
   @override
   Widget build(BuildContext context) {
@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Expanded(
             child: CrazyList(
               itemCount: itemCount,
-              mode: CrazyListMode.grid,
+              mode: CrazyListMode.list,
               color1: Colors.green[50],
               color2: Colors.green[300],
               onTap: (index) => print('$index tapped'),
